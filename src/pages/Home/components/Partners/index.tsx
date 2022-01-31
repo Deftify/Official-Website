@@ -17,7 +17,8 @@ const PARTNERS: {
 	{image: 'dec-ventures.svg', key: uniqueRef()},
 	{image: 'oasis-capital.svg', key: uniqueRef()},
 	{image: 'averagemenvc-svg.svg', key: uniqueRef()},
-	{image: 'moonstarter.svg', key: uniqueRef()}
+	{image: 'moonstarter.svg', key: uniqueRef()},
+	{image: 'erax.svg', key: uniqueRef()}
 ];
 
 
