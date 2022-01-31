@@ -23,8 +23,8 @@ export const Accessibility = () => {
 			</Text>
 
 			<p className="section-text__description description">
-				Deftify is utilizing Polygon’s fast blockchain. Deftify will benefit from Polygon’s low cost transaction and
-				ultra fast transaction speed.
+				Deftify is utilizing Polygon and Cardano, making it the first Africa-focused launchpad and market data 
+				aggregator to tap into both Polygon and Cardano ecosystem
 			</p>
 
 			<Wave className="wave" />
