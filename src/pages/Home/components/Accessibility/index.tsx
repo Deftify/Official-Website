@@ -11,11 +11,14 @@ export const Accessibility = () => {
 			<p className="section-text__title--small small">BUILT FOR ACCESSIBILITY</p>
 
 			<Text className="powered-by-text">
+			<div className="row">
 			<div className="column">
 			<a href="https://polygon.technology/" target="_blank" rel="noreferrer"><Polygon /></a>
   			</div>
+			  <div className="column">&nbsp;</div>
   			<div className="column">
   			<Cardano />
+  			</div>
   			</div>
 			</Text>
 
