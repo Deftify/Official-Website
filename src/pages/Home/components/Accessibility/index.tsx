@@ -10,16 +10,14 @@ export const Accessibility = () => {
 		<Spacing className="accessibility-wrapper">
 			<p className="section-text__title--small small">BUILT FOR ACCESSIBILITY</p>
 
-			
-			<div className="row">
+			<Text className="powered-by-text">
 			<div className="column">
 			<a href="https://polygon.technology/" target="_blank" rel="noreferrer"><Polygon /></a>
   			</div>
   			<div className="column">
   			<Cardano />
   			</div>
-  			</div>
-			
+			</Text>
 
 			<p className="section-text__description description">
 				Deftify is utilizing Polygon’s fast blockchain. Deftify will benefit from Polygon’s low cost transaction and
