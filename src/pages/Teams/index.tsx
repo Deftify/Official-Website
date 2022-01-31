@@ -94,6 +94,13 @@ const Teams = (): ReactElement => {
             avatar="./images/profile/6.png"
             achievement="Kingsley is a full-stack software engineer proficient in programming languages such as Java, JavaScript, Typescript and Solidity. He's a back-end developer at Lead Wallet and DeSpace, and a full-stack and smart contract engineer at Dogecoin 2.0"
           />
+          <Profile
+                  name="Nnadi Wisdom"
+                  position="MetaCurse Game Director"
+                  linkedIn="https://www.linkedin.com/feed/"
+                  avatar="./images/profile/wisdom.png"
+                  achievement="Nnadi Wisdom is a professional game developer with more than six years of experience. He’s proficient in making video games for multiple platforms, including mobile, PC, and virtual reality. With Deftify, he is responsible for MetaCurse game development and direction"
+          />
            <Profile
                   name="Jay Wang"
                   position="Business Development Manager"
