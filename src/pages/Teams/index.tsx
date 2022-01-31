@@ -94,19 +94,19 @@ const Teams = (): ReactElement => {
             avatar="./images/profile/6.png"
             achievement="Kingsley is a full-stack software engineer proficient in programming languages such as Java, JavaScript, Typescript and Solidity. He's a back-end developer at Lead Wallet and DeSpace, and a full-stack and smart contract engineer at Dogecoin 2.0"
           />
+          <Profile
+                  name="Nnadi Wisdom"
+                  position="MetaCurse Game Director"
+                  linkedIn="https://www.linkedin.com/feed/"
+                  avatar="./images/profile/wisdom.png"
+                  achievement="Nnadi Wisdom is a professional game developer with more than six years of experience. He’s proficient in making video games for mobile, PC, and virtual reality. He is responsible for MetaCurse game development and direction"
+          />
            <Profile
                   name="Jay Wang"
                   position="Business Development Manager"
                   linkedIn="https://www.linkedin.com/feed/"
                   avatar="./images/profile/avatar.png"
                   achievement="Jay is a graduate of Leiden University in the Netherlands. He has ten years of experience in public relations and business development with strong connections to media, KOLs and communities in Asia"
-          />
-          <Profile
-                  name="Nnadi Wisdom"
-                  position="MetaCurse Game Director"
-                  linkedIn="https://www.linkedin.com/feed/"
-                  avatar="./images/profile/avatar.png"
-                  achievement="Nnadi Wisdom is a professional game developer with more than six years of experience. He’s proficient in making video games for mobile, PC, and virtual reality. He is responsible for MetaCurse game development and direction"
           />
         </ProfileGrid>
       </Spacing>
