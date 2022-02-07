@@ -131,6 +131,13 @@ const Teams = (): ReactElement => {
             avatar="./images/profile/9.png"
             achievement="With experience producing engaging content, CryptoEdit has become synonymous with quality having helped many emerging and established projects. The CryptoEdit team help tell the projects story and provide ongoing research on the rapidly changing crypto landscape"
           />
+           <Profile
+            name="Raed Arrar"
+            position="Visionary/Strategic Advisor"
+            linkedIn="https://www.linkedin.com/in/raedarrar/"
+            avatar="./images/profile/raed.png"
+            achievement="Worked with startups in the past 30+ years of International Business Development and Venture Capital experience.  His passion revolves around blockchain and metaverse where can regularly be found testing new strategies. His main focus is building partnerships with a singular vision."
+          />
 
         </ProfileGrid>
       </Spacing>
