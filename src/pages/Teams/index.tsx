@@ -122,14 +122,21 @@ const Teams = (): ReactElement => {
             position="Strategic Advisor"
             linkedIn="https://www.linkedin.com/in/obasi-francis-ifegwu-79829794/"
             avatar="./images/profile/7.png"
-            achievement="Obasi has over 7 years of experience in the start-up environment, is the co-founder of Lead Wallet and DeSpace Protocol. Obasi will advise Deftify on strategies to build a successful DeFi and NFT brand"
+            achievement="Obasi has over 7 years of experience in the start-up environment, he is the co-founder of Lead Wallet and DeSpace Protocol. With his massive experience, Obasi will advise Deftify on strategies to build a successful DeFi and NFT brand for the entire Deftify ecosystem"
           />
           <Profile
             name="CryptoEdit"
             position="Research & Content Lead"
             linkedIn="https://www.linkedin.com/feed/"
             avatar="./images/profile/9.png"
-            achievement="With experience producing engaging content, CryptoEdit has become synonymous with quality having helped many emerging and established projects. The CryptoEdit team help tell the projects story and provide ongoing research on the rapidly changing crypto landscape"
+            achievement="With experience producing engaging content, CryptoEdit has become synonymous with quality, having helped many emerging and established projects. The CryptoEdit team help tell the projects story and provide ongoing research on the rapidly changing crypto industry and landscape"
+          />
+           <Profile
+            name="Raed Arrar"
+            position="Visionary/Strategic Advisor"
+            linkedIn="https://www.linkedin.com/in/raedarrar/"
+            avatar="./images/profile/raed.png"
+            achievement="Worked with startups in the past 30+ years of International Business Development and Venture Capital experience.  His passion revolves around blockchain and metaverse where can regularly be found testing new strategies. His main focus is building partnerships with a singular vision."
           />
 
         </ProfileGrid>
