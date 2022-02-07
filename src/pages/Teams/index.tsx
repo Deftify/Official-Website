@@ -129,7 +129,7 @@ const Teams = (): ReactElement => {
             position="Research & Content Lead"
             linkedIn="https://www.linkedin.com/feed/"
             avatar="./images/profile/9.png"
-            achievement="With experience producing engaging content, CryptoEdit has become synonymous with quality having helped many emerging and established projects. The CryptoEdit team help tell the projects story and provide ongoing research on the rapidly changing crypto landscape"
+            achievement="With experience producing engaging content, CryptoEdit has become synonymous with quality, having helped many emerging and established projects. The CryptoEdit team help tell the projects story and provide ongoing research on the rapidly changing crypto industry and landscape"
           />
            <Profile
             name="Raed Arrar"
