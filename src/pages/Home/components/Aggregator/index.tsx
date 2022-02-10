@@ -22,7 +22,7 @@ const slides: Slide[] = aggregatorImages.map(aggregator => ({image: aggregator.i
 export const Aggregator = () => {
 	return (
 		<Spacing className="aggregator-wrapper">
-			<p className="section-text__title title">
+			<p className="section-text__header2 header2">
 				Instant Watch
 			</p>
 			<p className="section-text__description description">
