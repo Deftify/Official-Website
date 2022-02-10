@@ -47,7 +47,7 @@ export const Introduction = () => {
       <Spacing margin="auto" padding="0 20px 20px" className="intro-wrapper sec-one">
 
         <p className="section-text__description description">
-        As the world’s first Africa-focused crypto incubator and launchpad, Deftify offers private round access to cutting-edge African innovation.
+        As the world’s first Africa-focused crypto incubator and launchpad, Deftify offers private round access to cutting-edge African innovations.
           On top of that, Deftify also offers market data aggregator tools and is incubating its own P2E game, all using the same Deftify token (DFTY) staking mechanism
         </p>
 
