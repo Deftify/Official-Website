@@ -29,8 +29,8 @@ export const slides: Slide[] = [
 
 const SECTION_TITLES = [
   'an Africa-focused crypto launchpad and incubator, connecting African innovations to the world.',
-  'providing market data aggregator service. [Imagine DexTools + DefiLlama + OpenSea data aggregator all in one space].',
-  'index funds is like DeFi Pulse Index but with exposure on alternative chains like Polygon and Cardano.',
+  'Deftify is a market data aggregator service [imagine DexTools + DefiLlama + OpenSea data aggregator all in one space].',
+  'Deftify is an index funds with exposure on multiple chains unlike DeFi Pulse Index funds that is limited on Ethereum',
   'a P2E PvP and PvE game (Metacurse) powered by Deftify token (DFTY).',
 ];
 
