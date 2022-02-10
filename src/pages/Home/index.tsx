@@ -29,7 +29,7 @@ export const slides: Slide[] = [
 
 const SECTION_TITLES = [
   'an Africa-focused crypto launchpad and incubator, connecting African innovations to the world',
-  'providing market data aggregator service. Imagine combo of DexTools and DefiLlama but better ',
+  'providing market data aggregator service. Imagine DexTools + DefiLlama + OpenSea data aggregator but better ',
   'index funds is like DeFi Pulse Index but with exposure on alternative chains',
   'also incubating a metaverse game called Metacurse which will utilize Deftify token',
 ];

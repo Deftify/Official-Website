@@ -48,7 +48,7 @@ export const Introduction = () => {
 
         <p className="section-text__description description">
         As the world’s first Africa-focused crypto incubator and launchpad, Deftify offers private round access to cutting-edge African innovation.
-          On top of that, Deftify also offers market data aggregator tools (Instant Watch) and will incubate its own P2E game (MetaCurse), all using the same Deftify token staking mechanism
+          On top of that, Deftify also offers market data aggregator tools and is incubating its own P2E game, all using the same Deftify token (DFTY) staking mechanism
         </p>
 
         {/*buttons*/}
