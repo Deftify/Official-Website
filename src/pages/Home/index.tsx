@@ -28,10 +28,10 @@ export const slides: Slide[] = [
 ];
 
 const SECTION_TITLES = [
-  'an Africa-focused crypto incubator and launchpad, connecting African innovations',
-  'a market data aggregator built for crypto traders, researchers, and investors',
-  'index funds provide exposure to alternative chains that are not available elsewhere',
-  'incubating a metaverse game called Metacurse which will utilize Deftify token',
+  'an Africa-focused crypto launchpad and incubator with first mover advantage',
+  'providing market data aggregator service. Imagine combo of DexTools and DefiLlama but better ',
+  'index funds is like DeFi Pulse Index but with exposure on alternative chains',
+  'also incubating a metaverse game called Metacurse which will utilize Deftify token',
 ];
 
 export const Home = () => {
