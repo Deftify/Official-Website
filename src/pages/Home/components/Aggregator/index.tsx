@@ -22,13 +22,12 @@ const slides: Slide[] = aggregatorImages.map(aggregator => ({image: aggregator.i
 export const Aggregator = () => {
 	return (
 		<Spacing className="aggregator-wrapper">
-			<p className="section-text__title title">
+			<p className="section-text__header2 header2">
 				Instant Watch
 			</p>
 			<p className="section-text__description description">
-				Deftify's Instant Watch is a powerful resource for traders who are looking for a deeper understanding of the
-				cryptocurrency market and want to analyze specific events. Deftify will provide huge resources under its Market
-				Data Aggregator platform
+				Imagine a combination of DexTools + DefiLlama + OpenSea data aggregator all in one but with better UI and more feature-rich.
+				That's Deftify's Instant Watch. Stake Deftify token (DFTY) to unlock premium features in our Instant Watch.
 			</p>
 
 			<Spacing
