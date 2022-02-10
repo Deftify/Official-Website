@@ -12,14 +12,14 @@ import Typewriter from 'typewriter-effect';
 
 export const slides: Slide[] = [
   {
-    caption: 'Deftify’s Private Access Pad grants access to untapped markets, especially in Africa',
+    caption: 'Our launchpad and incubator is called Private Access Pad, with access to untapped markets',
     image:   './images/slide-one.svg'
   }, {
-    caption: 'Deftify’s Instant Watch helps traders to analyze DeFi projects across different networks',
+    caption: 'Our market data aggregator is like DexTools + DefiLlama + OpenSea data aggregator all at once',
     image:   './images/slider-02.svg'
   },
   {
-    caption: 'Deftify Indexes present opportunities on altcoins from alternative chains',
+    caption: 'Deftify Indexes present opportunities on alternative chains like Cardano and Polygon',
     image:   './images/slider-04.svg'
   }, {
     caption: 'Introducing Metacurse, Deftify’s own metaverse P2E game that will utilize Deftify token (DFTY)',
@@ -30,7 +30,7 @@ export const slides: Slide[] = [
 const SECTION_TITLES = [
   'an Africa-focused crypto launchpad and incubator, connecting African innovations to the world.',
   'a market data aggregator service [imagine DexTools + DefiLlama + OpenSea data aggregator all in one space].',
-  'an index funds with exposure on multiple chains unlike DeFi Pulse Index funds that is limited on Ethereum',
+  'is an index funds with exposure on multiple chains unlike DeFi Pulse Index funds that is limited on Ethereum',
   'a P2E PvP and PvE game (Metacurse) powered by Deftify token (DFTY).',
 ];
 
