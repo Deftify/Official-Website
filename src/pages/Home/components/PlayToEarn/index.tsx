@@ -8,7 +8,7 @@ export const PlayToEarn = () => {
 			<p className="section-text__title--small small">
 				PLAY2EARN metaverse with a twist
 			</p>
-			<p className="section-text__title--header2 header2">
+			<p className="section-text__header2 header2">
 				Introducing Deftify’s MetaCurse
 			</p>
 			<p className="section-text__description description">
