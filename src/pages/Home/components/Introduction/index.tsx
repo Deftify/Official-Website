@@ -47,10 +47,8 @@ export const Introduction = () => {
       <Spacing margin="auto" padding="0 20px 20px" className="intro-wrapper sec-one">
 
         <p className="section-text__description description">
-          Deftify is the first Africa-focused launchpad and incubator - Africa is a big region with over 1200% growth in one year
-          but it lacks infrastructure that it needs to be able to compete with other continents. Deftify has first mover advantage
-          with its private access launchpad and incubator program that will be established both online and offline in various sites.
-          On top of that, Deftify also offers market data aggregator tools (Instant Watch) and will incubate its own P2E game (MetaCurse), all using the same token staking mechanism
+        As the world’s first Africa-focused crypto incubator and launchpad, Deftify offers private round access to cutting-edge African innovation.
+          On top of that, Deftify also offers market data aggregator tools (Instant Watch) and will incubate its own P2E game (MetaCurse), all using the same Deftify token staking mechanism
         </p>
 
         {/*buttons*/}

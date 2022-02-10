@@ -26,9 +26,8 @@ export const Aggregator = () => {
 				Instant Watch
 			</p>
 			<p className="section-text__description description">
-				Deftify's Instant Watch is a powerful resource for traders who are looking for a deeper understanding of the
-				cryptocurrency market and want to analyze specific events. Deftify will provide huge resources under its Market
-				Data Aggregator platform
+				Deftify's Instant Watch is a combination of DexTools + DefiLlama + OpenSea data aggregator all in one but with better UI and more feature-rich.
+				Stake Deftify token (DFTY) to unlock premium features 
 			</p>
 
 			<Spacing
