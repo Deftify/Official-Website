@@ -29,7 +29,7 @@ const OutlinedButton = styled.button<Props>`
   display: flex;
   align-items: center;
   justify-content: center;
-  color: ${({color}) => color || '#4da63c'};
+  color: ${({color}) => color || '#FFFFFF'};
   padding: 15px 20px;
 
   ${({theme}) => theme.breakpoint.down('lg')} {
