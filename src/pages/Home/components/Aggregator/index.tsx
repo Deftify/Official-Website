@@ -26,8 +26,8 @@ export const Aggregator = () => {
 				Instant Watch
 			</p>
 			<p className="section-text__description description">
-				Deftify's Instant Watch is a combination of DexTools + DefiLlama + OpenSea data aggregator all in one but with better UI and more feature-rich.
-				Stake Deftify token (DFTY) to unlock premium features 
+				Imagine a combination of [DexTools + DefiLlama + OpenSea data aggregator] all in one but with better UI and more feature-rich.
+				That's Deftify's Instant Watch. Stake Deftify token (DFTY) to unlock premium features in our Instant Watch.
 			</p>
 
 			<Spacing
