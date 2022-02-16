@@ -56,7 +56,7 @@ const SectionOne = () => <Spacing className="section-one">
 			alignItems:     'center',
 			justifyContent: 'center'
 		}}>
-		<img src="./images/stakedfty.png" alt="stake dfty"></img>
+		<img src="./images/stakedfty.svg" alt="stake dfty"></img>
 		&nbsp;
 		<p className="section-text__header2 header2">
 			Private Access Pad (PAP)
