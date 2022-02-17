@@ -56,7 +56,7 @@ const SectionOne = () => <Spacing className="section-one">
 			alignItems:     'center',
 			justifyContent: 'center'
 		}}>
-			<p className="section-text__header2 header2">
+			<p className="section-text__headerdfty headerdfty">
 			Deftify token (DFTY) has multiple use cases across Deftify ecosystem
 		</p>
 		<img src="./images/stakedfty-transparent.svg" alt="stake dfty"></img>
