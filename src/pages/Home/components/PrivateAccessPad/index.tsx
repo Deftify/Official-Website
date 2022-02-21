@@ -54,6 +54,7 @@ const SectionOne = () => <Spacing className="section-one">
 			display:        'flex',
 			flexDirection:  'column',
 			alignItems:     'center',
+			fullWidth:		'{true}',
 			justifyContent: 'center'
 		}}>
 			<p className="section-text__headerdfty headerdfty">
