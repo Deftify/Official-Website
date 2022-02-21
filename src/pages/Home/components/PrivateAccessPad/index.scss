@@ -17,7 +17,12 @@
   }
 
   .stakedfty_image {
-    width: 75%;
+    
+    &__stake {
+      .stake-image {
+        width: 90%;
+      }
+    }
   }
 }
 
