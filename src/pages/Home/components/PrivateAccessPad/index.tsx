@@ -54,14 +54,13 @@ const SectionOne = () => <Spacing className="section-one">
 			display:        'flex',
 			flexDirection:  'column',
 			alignItems:     'center',
-			fullWidth:		'{true}',
 			justifyContent: 'center'
 		}}>
 			<p className="section-text__headerdfty headerdfty">
 			Deftify token (DFTY) has multiple use cases across Deftify ecosystem
 		</p>
-		<div className="subsection subsection__right">
-		<img className="stakedfty_image" src="./images/stakedfty-transparent.svg" alt={''} /></div>
+		<div className="stakedfty_image">
+		<img src="./images/stakedfty-transparent.svg" alt={''} /></div>
 		&nbsp;
 		<p className="section-text__header2 header2">
 			Private Access Pad (PAP)
