@@ -46,12 +46,17 @@ code {
 }
 
 .section-text {
-  &__title, &__description, &__pressrelease, &__header2 {
+  &__title, &__description, &__pressrelease, &__header2, &__headerdfty {
     font-family: 'Space Grotesk';
     font-weight: 500;
     text-align:  center;
   }
 
+  &__headerdfty {
+    color:     #FFFFFF;
+    font-size: 26px;
+  }
+  
   &__header2 {
     color:     #FFFFFF;
     font-size: 36px;

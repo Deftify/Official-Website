@@ -15,6 +15,15 @@
   .description {
     max-width: 780px;
   }
+
+  .stakedfty_image {
+    
+    &__stake {
+      .stake-image {
+        width: 90%;
+      }
+    }
+  }
 }
 
 .section-two {

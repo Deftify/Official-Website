@@ -71,14 +71,6 @@ const Teams = (): ReactElement => {
             achievement="Neil is an experienced designer with more than seven years of experience in design leadership, strategic design, and user experience design. Neil brings his extensive design experience to Deftify and will oversee the UI/UX design"
           />
           <Profile
-            name="Andrew Fennell"
-            position="Chief Business Development"
-            linkedIn="https://www.linkedin.com/in/andrewfennellbdm/"
-            avatar="./images/profile/4.png"
-            achievement="Andrew is an experienced sales professional who comes with over 12 years of experience in sales methodologies, relationship building, and account management. Most notably, Andrew played a vital role in DeSpace Protocol’s launch in late 2021"
-          />
-
-          <Profile
             name="Henry O."
             position="Chief Technical Officer"
             github="https://github.com/Hendobox"
