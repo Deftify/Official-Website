@@ -69,6 +69,11 @@ const SectionOne = () => <Spacing className="section-one">
 			Deftify’s Private Access Pad (PAP) is a private round launchpad and incubator with Africa as the focus. Our team has wide and direct connections to untapped potential. Through PAP,
 			Deftify is going to incubate promising blockchain projects that are not reachable by the usual launchpads
 		</p>
+
+		<p className="section-text__description description">
+			Deftify PAP testnet is now live on Ropsten network! To celebrate our testnet, we have 2,500,000 DFTY total tokens for bug bounty rewards. 
+			Click here to test our PAP
+		</p>
 	</Spacing>
 </Spacing>;
 
