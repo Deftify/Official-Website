@@ -72,7 +72,8 @@ const SectionOne = () => <Spacing className="section-one">
 		</p>
 
 		<p className="section-text__description description">
-			Deftify PAP testnet is now live on Ropsten network! To celebrate our testnet, we have 2,500,000 DFTY total tokens for bug bounty rewards. 
+			Deftify PAP testnet is now live on Ropsten network! To celebrate our testnet, we have 2,500,000 DFTY total tokens for bug bounty rewards.</p> 
+			<div className="button-center">
 			<a
               href="https://medium.com/deftify"
               target="_blank"
@@ -82,12 +83,11 @@ const SectionOne = () => <Spacing className="section-one">
               target="_blank"
               rel="noreferrer"
             >
-              <RegularButton marginRightSm="1000px" marginBottomSm="20px">
+              <RegularButton marginRightSm="0px" marginBottomSm="20px">
                 Click Here To Test Our PAP
               </RegularButton>
             </a>
-			
-		</p>
+			</div>
 	</Spacing>
 </Spacing>;
 
