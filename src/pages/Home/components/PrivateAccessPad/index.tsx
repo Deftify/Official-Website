@@ -82,7 +82,7 @@ const SectionOne = () => <Spacing className="section-one">
               target="_blank"
               rel="noreferrer"
             >
-              <RegularButton stretch mr="40px" marginRightSm="50px" marginBottomSm="20px">
+              <RegularButton marginRightSm="1000px" marginBottomSm="20px">
                 Click Here To Test Our PAP
               </RegularButton>
             </a>
