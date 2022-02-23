@@ -77,16 +77,16 @@ const SectionOne = () => <Spacing className="section-one">
               href="https://medium.com/deftify"
               target="_blank"
               rel="noreferrer">Read the bug bounty announcement</a>
-			<div className="button-center"><a
+			<a
               href="https://testpap.deftify.io"
               target="_blank"
               rel="noreferrer"
             >
-              <RegularButton stretch mr="40px" marginRightSm="0px" marginBottomSm="20px">
+              <RegularButton stretch mr="40px" marginRightSm="50px" marginBottomSm="20px">
                 Click Here To Test Our PAP
               </RegularButton>
             </a>
-			</div>
+			
 		</p>
 	</Spacing>
 </Spacing>;
