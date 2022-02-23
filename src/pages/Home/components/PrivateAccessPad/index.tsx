@@ -3,6 +3,7 @@ import {ReactComponent as Fund} from '../../../../assets/Icons/fund.svg';
 import {ReactComponent as Incubator} from '../../../../assets/Icons/incubator.svg';
 import {ReactComponent as Invest} from '../../../../assets/Icons/invest.svg';
 import Spacing from '../../../../components/Spacing';
+import RegularButton from '../../../../components/Button/Regular';
 import './index.scss';
 
 interface Props {
