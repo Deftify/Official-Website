@@ -67,13 +67,11 @@ const SectionOne = () => <Spacing className="section-one">
 			Private Access Pad (PAP) - Testnet Is Live!
 		</p>
 		<p className="section-text__description description">
-			Deftify’s Private Access Pad (PAP) is a private round launchpad and incubator with Africa as the focus. Through PAP,
-			Deftify is going to incubate promising blockchain projects that are not reachable by the usual launchpads.
+			Deftify’s Private Access Pad (PAP) is a private round launchpad and incubator with Africa as the focus. Through PAP, Deftify is going to incubate promising blockchain projects that are not reachable by the usual launchpads.
 		</p>
 
 		<p className="section-text__description description">
-			Deftify PAP testnet is now live on Ropsten network! To celebrate our testnet, we have 2,500,000 DFTY total tokens for bug bounty rewards. 
-			<a
+			Deftify PAP testnet is now live on Ropsten network! To celebrate our testnet, we have 2,500,000 DFTY total tokens for bug bounty rewards. <a
               href="https://medium.com/deftify"
               target="_blank"
               rel="noreferrer">Read the bug bounty announcement</a></p> 
