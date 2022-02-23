@@ -63,16 +63,24 @@ const SectionOne = () => <Spacing className="section-one">
 		<img className="stake-image" src="./images/stakedfty-transparent.svg" alt={''} /></div>
 		&nbsp;
 		<p className="section-text__header2 header2">
-			Private Access Pad (PAP)
+			Private Access Pad (PAP) - Testnet Is Live!
 		</p>
 		<p className="section-text__description description">
-			Deftify’s Private Access Pad (PAP) is a private round launchpad and incubator with Africa as the focus. Our team has wide and direct connections to untapped potential. Through PAP,
+			Deftify’s Private Access Pad (PAP) is a private round launchpad and incubator with Africa as the focus. Through PAP,
 			Deftify is going to incubate promising blockchain projects that are not reachable by the usual launchpads
 		</p>
 
 		<p className="section-text__description description">
 			Deftify PAP testnet is now live on Ropsten network! To celebrate our testnet, we have 2,500,000 DFTY total tokens for bug bounty rewards. 
-			Click here to test our PAP
+			<a
+              href="./docs/deftify_whitepaper.pdf"
+              target="_blank"
+              rel="noreferrer"
+            >
+              <RegularButton stretch mr="40px" marginRightSm="0px" marginBottomSm="20px">
+                Click Here To Test Our PAP
+              </RegularButton>
+            </a> 
 		</p>
 	</Spacing>
 </Spacing>;
