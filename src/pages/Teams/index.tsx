@@ -114,7 +114,7 @@ const Teams = (): ReactElement => {
             position="Strategic Advisor"
             linkedIn="https://www.linkedin.com/in/obasi-francis-ifegwu-79829794/"
             avatar="./images/profile/7.png"
-            achievement="Obasi has over 7 years of experience in the start-up environment, he is the co-founder of Lead Wallet and DeSpace Protocol. With his massive experience, Obasi will advise Deftify on strategies to build a successful DeFi and NFT brand for the entire Deftify ecosystem"
+            achievement="Obasi has over 7 years of experience in the start-up environment, he is the CEO of Cassava Network and DeSpace Protocol. With his massive experience, Obasi will advise Deftify on strategies to build a successful DeFi and NFT brand for the entire Deftify ecosystem"
           />
           <Profile
             name="CryptoEdit"
