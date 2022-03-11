@@ -22,6 +22,9 @@ const Footer = (): ReactElement => {
     <Spacing paddingHorizontal="20px" paddingTop="50px" paddingBottom="40px" background="#151515">
       <Flex itemsFlex={0.7} itemsFlexSm={1}>
         <Grid>
+        <a href="https://testpap.deftify.io"><Text fontWeight={800} textAlign="center" textAlignSm="left" color="#fff">
+            PAP(Testnet)
+          </Text></a>
           <a href="/"><Text fontWeight={800} textAlign="center" textAlignSm="left" color="#fff">
             Instant Watch
           </Text></a>
@@ -30,9 +33,6 @@ const Footer = (): ReactElement => {
           </Text></a>
           <a href="https://metacurse.gg/" target="_blank" rel="noopener noreferrer"><Text fontWeight={800} textAlign="center" textAlignSm="left" color="#fff">
             MetaCurse
-          </Text></a>
-          <a href="/"><Text fontWeight={800} textAlign="center" textAlignSm="left" color="#fff">
-            PAP
           </Text></a>
           <a href="./team"><Text fontWeight={800} textAlign="center" textAlignSm="left" color="#fff">
             Team
