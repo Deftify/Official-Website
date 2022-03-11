@@ -10,6 +10,10 @@ const routes: routeType[]  = [
 		path: '/'
 	},
 	{
+		name: 'PAP (Testnet)',
+		path: 'https://testpap.deftify.io' 
+	},
+	{
 		name: 'Instant Watch',
 		path: '/' //path: "/instant-watch" <= supposedly, will edit when the platform is ready
 	},
@@ -20,11 +24,7 @@ const routes: routeType[]  = [
 	{
     type: 'external',
 		name: 'MetaCurse',
-		path: 'https://metacurse.gg/' //path: "/play-n-earn" <= supposedly, will edit when the platform is ready
-	},
-	{
-		name: 'Private  Access Pad',
-		path: '/' //path: "/private-access-pad" <= supposedly, will edit when the platform is ready
+		path: 'https://metacurse.gg' 
 	},
 	{
 		name: 'Staking',
