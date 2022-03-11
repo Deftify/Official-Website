@@ -10,6 +10,7 @@ const routes: routeType[]  = [
 		path: '/'
 	},
 	{
+	type: 'external',	
 		name: 'PAP (Testnet)',
 		path: 'https://testpap.deftify.io' 
 	},
