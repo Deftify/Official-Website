@@ -37,8 +37,8 @@ const Footer = (): ReactElement => {
           <a href="./team"><Text fontWeight={800} textAlign="center" textAlignSm="left" color="#fff">
             Team
           </Text></a>
-          <a href="https://www.deftify.io/docs/deftify_pitchdeck.pdf" target="_blank" rel="noopener noreferrer"><Text fontWeight={800} textAlign="center" textAlignSm="left" color="#fff">
-            Pitch Deck
+          <a href="https://www.deftify.io/docs/deftify_whitepaper.pdf" target="_blank" rel="noopener noreferrer"><Text fontWeight={800} textAlign="center" textAlignSm="left" color="#fff">
+            Whitepaper
           </Text></a>
           {/* <Text fontWeight={800} textAlign="center" textAlignSm="left" color="#fff">
             Contact Us
