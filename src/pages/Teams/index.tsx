@@ -60,8 +60,16 @@ const Teams = (): ReactElement => {
             name="Olapade Samuel"
             position="Chief Marketing Officer"
             linkedIn="https://www.linkedin.com/in/engrsamest/"
-            avatar="./images/profile/samuel.jpg"
+            avatar="./images/profile/samuel.png"
             achievement="Diversified experience in crypto and project management. Samuel is a blockchain educator with deep connections to the African crypto industry. Previously with MantraDAO, Strongnode, Orion Protocol, NANO, Darwinia, Sentinel, and others"
+          />
+          <Profile
+            name="Philip Akhilome "
+            position="Chief Technology Officer"
+            github="https://github.com/akhils10"
+            linkedIn="https://www.linkedin.com/in/philip-akhilome/"
+            avatar="./images/profile/philip.png"
+            achievement="Philip is a highly innovative polyglot software engineer and blockchain developer with over 10 years overall programming experience. He is a co-founder at Guild Protocol, Buttons Labs and Techmybrand. Philip also has experiences leading distributed teams"
           />
           <Profile
             name="Neil Mani"
@@ -71,12 +79,20 @@ const Teams = (): ReactElement => {
             achievement="Neil is an experienced designer with more than seven years of experience in design leadership, strategic design, and user experience design. Neil brings his extensive design experience to Deftify and will oversee the UI/UX design"
           />
           <Profile
-            name="Henry O."
-            position="Chief Technical Officer"
+            name="Henry Oyenbuchi"
+            position="Smart Contract Developer"
             github="https://github.com/Hendobox"
             linkedIn="https://www.linkedin.com/in/henry-onyebuchi-116501123/"
             avatar="./images/profile/5.png"
             achievement="Henry is a smart-contract developer with over two years of experience in building decentralized applications in the blockchain industry. Work experience include Rarecandy3D, Lead Wallet, and DeSpace protocol. Has a master’s degree in Mechanical Engineering"
+          />
+          <Profile
+            name="Revival Nano Adolor "
+            position="Frontend Dev"
+            github="https://github.com/nano235"
+            linkedIn="https://www.linkedin.com/in/revival-nano-adolor/"
+            avatar="./images/profile/nano.png"
+            achievement="Nano is a software engineer with more than 3 years’ experience in software engineering and 1+ years’ experience in blockchain development. He is also a strong engineering professional with a B.Eng focused in Electrical and Electronics Engineering from University of Benin"
           />
           <Profile
             name="Kingsley Victor"
