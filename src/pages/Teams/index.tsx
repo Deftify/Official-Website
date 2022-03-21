@@ -76,11 +76,11 @@ const Teams = (): ReactElement => {
             position="Chief Design Officer"
             linkedIn="https://www.linkedin.com/feed/"
             avatar="./images/profile/3.png"
-            achievement="Neil is an experienced designer with more than seven years of experience in design leadership, video making, strategic design, and user experience design. Neil brings his extensive design experience to Deftify and will oversee the UI/UX design"
+            achievement="Neil Mani is an experienced designer with more than seven years of experience in design leadership, video making, user journey, strategic design, and user experience design. Neil brings his extensive design experience to Deftify and will oversee the UI/UX design"
           />
           <Profile
-            name="Henry O."
-            position="Smart Contract Developer"
+            name="Henry Onyebuchi"
+            position="Smart Contract"
             github="https://github.com/Hendobox"
             linkedIn="https://www.linkedin.com/in/henry-onyebuchi-116501123/"
             avatar="./images/profile/5.png"
