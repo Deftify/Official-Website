@@ -15,6 +15,7 @@ const PARTNERS: {
 	{image: 'polygon-partner.svg', key: uniqueRef()},
 	{image: 'despace.svg', key: uniqueRef()},
 	{image: 'dec-ventures.svg', key: uniqueRef()},
+	{image: 'ace-capital.svg', key: uniqueRef()},
 	{image: 'oasis-capital.svg', key: uniqueRef()},
 	{image: 'averagemenvc-svg.svg', key: uniqueRef()},
 	{image: 'lgg.svg', key: uniqueRef()},
