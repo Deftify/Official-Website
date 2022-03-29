@@ -7,7 +7,7 @@ import Spacing from '../../../../components/Spacing';
 import './index.scss';
 import {Modal} from '../../../../components/Modal';
 
-const YOUTUBE_SRC = "https://www.youtube.com/embed/nDFLAh-3FYg?autoplay=1";
+const YOUTUBE_SRC = "https://www.youtube.com/embed/ojI-W87vclI?autoplay=1";
 
 export const Introduction = () => {
   const iframeRef = useRef() as MutableRefObject<any>;
