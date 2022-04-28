@@ -19,7 +19,7 @@ export const slides: Slide[] = [
     image:   './images/slider-02.svg'
   },
   {
-    caption: 'Deftify Indexes present opportunities on alternative chains like Cardano and Polygon',
+    caption: 'Deftify Indexes present opportunities on many alternative chains, like Cardano and Polygon',
     image:   './images/slider-04.svg'
   }, {
     caption: 'Introducing Metacurse, Deftify’s own metaverse P2E game that will utilize Deftify token (DFTY)',
@@ -31,7 +31,7 @@ const SECTION_TITLES = [
   'an Africa-focused crypto launchpad and incubator, connecting African innovations to the world.',
   'a market data aggregator service [imagine DexTools + DefiLlama + OpenSea data aggregator all in one space].',
   'is an index funds with exposure on multiple chains unlike DeFi Pulse Index funds that is limited on Ethereum',
-  'a P2E PvP and PvE game (Metacurse) powered by Deftify token (DFTY).',
+  'incubating a P2E game (Metacurse) that is fully powered by Deftify token (DFTY).',
 ];
 
 export const Home = () => {
