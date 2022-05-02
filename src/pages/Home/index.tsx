@@ -45,7 +45,7 @@ export const Home = () => {
     <div>
       <div className="cookie-banner">
         <p>
-        Please vote for Deftify at ProductHunt
+        Please vote for Deftify at2 ProductHunt
         </p>
       </div>
       <div className="section-text__title-wrapper">
