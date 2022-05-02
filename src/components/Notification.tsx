@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import './Header.css';
+import '../index.scss';
 
 export default class Notification extends Component {
   render() {
