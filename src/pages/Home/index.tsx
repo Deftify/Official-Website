@@ -45,7 +45,7 @@ export const Home = () => {
     <div>
       <div className="cookie-banner">
         <p>
-        Please vote for Deftify at ProductHunt
+        <a href="https://www.producthunt.com/posts/deftify" target="_blank" rel="noreferrer">Please vote for Deftify at ProductHunt ❤️</a>
         </p>
       </div>
       <div className="section-text__title-wrapper">
