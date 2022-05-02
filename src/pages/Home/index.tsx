@@ -97,7 +97,7 @@ export const Home = () => {
 
     <div className="cookie-banner">
     <p>
-    By using our website, you agree to our cookie policy
+    Please vote for Deftify at ProductHunt
     </p>
     </div>
     </div>
