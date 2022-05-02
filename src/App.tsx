@@ -22,6 +22,12 @@ function App() {
           <Route exact path="/" component={Home} />
           <Route exact path="/team" component={Teams} />
         </Switch>
+        <div class='cookie-banner' style='display: none'>
+        <p>
+        By using our website, you agree to our 
+        <a href='https://deftify.io'>cookie policy</a>
+        </p>
+        </div>
         <Footer />
       </BrowserRouter>
     </ThemeProvider>
