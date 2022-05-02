@@ -3,7 +3,6 @@ import {BrowserRouter, Route, Switch} from 'react-router-dom';
 import {ThemeProvider} from 'styled-components';
 import Footer from './components/Footer';
 import Navbar from './components/Navbar';
-import Notification from './components/Notification';
 import {theme} from './config/theme';
 import {Home} from './pages/Home';
 import Teams from './pages/Teams';
