@@ -94,6 +94,12 @@ export const Home = () => {
         className="stroked-background" style={{backgroundPosition: 'center 247px'}}>
         <ContactForm />
       </div>
+
+    <div className="cookie-banner">
+    <p>
+    By using our website, you agree to our cookie policy
+    </p>
+    </div>
     </div>
   );
 };
