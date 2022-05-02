@@ -19,7 +19,6 @@ function App() {
       <ToastContainer />
       <BrowserRouter>
         <Navbar />
-        <Notification />
         <Switch>
           <Route exact path="/" component={Home} />
           <Route exact path="/team" component={Teams} />
