@@ -7,6 +7,12 @@ import reportWebVitals from './reportWebVitals';
 ReactDOM.render(
   <React.StrictMode>
     <App />
+    <div class='cookie-banner' style='display: none'>
+    <p>
+    By using our website, you agree to our 
+    <a href='https://deftify.io'>cookie policy</a>
+    </p>
+    </div>
   </React.StrictMode>,
   document.getElementById('root')
 );
