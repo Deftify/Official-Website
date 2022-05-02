@@ -49,7 +49,13 @@ const WhatWeDo = (props: Props): JSX.Element => <Spacing display="flex">
 	</div>
 </Spacing>;
 
-const SectionOne = () => <Spacing className="section-one">
+const SectionOne = () => 
+	<div className="cookie-banner">
+	<p>
+	Please vote for Deftify at ProductHunt
+	</p>
+	</div>
+	<Spacing className="section-one">
 	<Spacing
 		style={{
 			display:        'flex',

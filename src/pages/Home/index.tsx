@@ -47,7 +47,7 @@ export const Home = () => {
         <p>
         Please vote for Deftify at ProductHunt
         </p>
-      
+      </div>
       <div className="section-text__title-wrapper">
         <div className="section-text__title">
           <Typewriter
@@ -98,7 +98,6 @@ export const Home = () => {
       <div
         className="stroked-background" style={{backgroundPosition: 'center 247px'}}>
         <ContactForm />
-      </div>
       </div>
     </div>
   );
