@@ -30,7 +30,8 @@
 
 //from here
 .cookie-banner {
-  position: fixed;
+  position: relative;
+  z-index: 2;
   top: 1px;
   left: 0%;
   right: 0%;
@@ -39,7 +40,6 @@
   display: flex;
   align-items: center;
   justify-content: space-between;
-  visibility: visible;
   background-color: #eee;
   border-radius: 5px;
   box-shadow: 0 0 2px 1px rgba(0, 0, 0, 0.2);
