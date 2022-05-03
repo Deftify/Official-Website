@@ -41,13 +41,17 @@ export const Home = () => {
     setCount(1);
   }, [count]);
 
-  return (
-    <div>
-      <div className="cookie-banner">
-        <p>
+const topNotification = () => {
+  <div className="cookie-banner">
+    <p>
         <a href="https://www.producthunt.com/posts/deftify" target="_blank" rel="noreferrer">Please vote for Deftify at ProductHunt ❤️</a>
-        </p>
-      </div>
+    </p>
+  </div>
+}
+
+  return (
+    <div>      
+      {topNotification}
       <div className="section-text__title-wrapper">
         <div className="section-text__title">
           <Typewriter
