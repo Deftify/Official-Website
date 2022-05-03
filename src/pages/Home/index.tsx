@@ -44,7 +44,7 @@ export const Home = () => {
 const topNotification = () => {
   return (
   <div className="cookie-banner">
-    <p>
+    <p align="center">
         <a href="https://www.producthunt.com/posts/deftify" target="_blank" rel="noreferrer">Please vote for Deftify at ProductHunt ❤️</a>
     </p>
   </div>
