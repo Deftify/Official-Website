@@ -42,16 +42,18 @@ export const Home = () => {
   }, [count]);
 
 const topNotification = () => {
+  return (
   <div className="cookie-banner">
     <p>
         <a href="https://www.producthunt.com/posts/deftify" target="_blank" rel="noreferrer">Please vote for Deftify at ProductHunt ❤️</a>
     </p>
   </div>
+  )
 }
 
   return (
     <div>      
-      {topNotification()}
+      {topNotification ()}
       <div className="section-text__title-wrapper">
         <div className="section-text__title">
           <Typewriter
