@@ -51,7 +51,7 @@ const topNotification = () => {
 
   return (
     <div>      
-      {topNotification}
+      {topNotification()}
       <div className="section-text__title-wrapper">
         <div className="section-text__title">
           <Typewriter
