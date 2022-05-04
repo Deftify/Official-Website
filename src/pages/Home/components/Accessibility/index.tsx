@@ -1,5 +1,5 @@
 import {ReactComponent as AllChains} from '../../../../assets/Icons/allchains.svg';
-import {ReactComponent as Polygon} from '../../../../assets/Icons/polygon.svg';
+import {ReactComponent as AllChainsMobile} from '../../../../assets/Icons/allchains-mobile.svg';
 import {ReactComponent as Wave} from '../../../../assets/images/wave.svg';
 import React, { useState, useEffect } from 'react';
 import Spacing from '../../../../components/Spacing';
@@ -33,7 +33,7 @@ export const Accessibility = () => {
 			<div className="row">
 			<div className="column">
 			{deviceWidth === 'mobile' ? (
-                <Polygon />
+                <AllChainsMobile />
                 ) : deviceWidth === 'desktop' ? (
 				<AllChains />
                 ) : (
@@ -45,8 +45,8 @@ export const Accessibility = () => {
 			</Text>
 
 			<p className="section-text__description description">
-				Deftify is utilizing Polygon and Cardano, making it the first Africa-focused launchpad and market data 
-				aggregator to tap into both Polygon and Cardano ecosystem
+				Deftify will launch on Polygon and will be cross-chain compatible with other EVM chains and Cardano, making it the first Africa-focused launchpad and market data 
+				aggregator to tap into multi-chain ecosystem
 			</p>
 
 			<Wave className="wave" />
