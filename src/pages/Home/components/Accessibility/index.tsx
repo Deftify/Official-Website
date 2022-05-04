@@ -6,22 +6,23 @@ import Spacing from '../../../../components/Spacing';
 import Text from '../../../../components/Typography';
 import './index.scss';
 
-useEffect(() => {
-	const checkWidth = () => {
-		if (window.innerWidth <= 1023) {
-			setDeviceWidth('mobile');
-		}
-		if (window.innerWidth > 1023) {
-			setDeviceWidth('desktop');
-		}
-	};
-	window.addEventListener('resize', checkWidth, { passive: true });
-	checkWidth();
-	return () => window.removeEventListener('resize', checkWidth);
-}, []);
-
 
 export const Accessibility = () => {
+
+	useEffect(() => {
+		const checkWidth = () => {
+			if (window.innerWidth <= 1023) {
+				setDeviceWidth('mobile');
+			}
+			if (window.innerWidth > 1023) {
+				setDeviceWidth('desktop');
+			}
+		};
+		window.addEventListener('resize', checkWidth, { passive: true });
+		checkWidth();
+		return () => window.removeEventListener('resize', checkWidth);
+	}, []);
+	
 	return (
 		<Spacing className="accessibility-wrapper">
 			<p className="section-text__title--small small">BUILT FOR ACCESSIBILITY</p>
