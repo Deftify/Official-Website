@@ -1,4 +1,4 @@
-import {ReactComponent as Polygon} from '../../../../assets/Icons/polygon.svg';
+import {ReactComponent as AllChains} from '../../../../assets/Icons/allchains.svg';
 import {ReactComponent as Wave} from '../../../../assets/images/wave.svg';
 import Spacing from '../../../../components/Spacing';
 import Text from '../../../../components/Typography';
@@ -12,13 +12,7 @@ export const Accessibility = () => {
 			<Text className="powered-by-text">
 			<div className="row">
 			<div className="column">
-			<a href="https://polygon.technology/" target="_blank" rel="noreferrer"><Polygon /></a>
-  			</div>
-  			<div className="column">
-  			<Polygon />
-  			</div>
-  			<div className="column">
-  			<Polygon />
+			<AllChains />
   			</div>
   			</div>
 			</Text>
