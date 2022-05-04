@@ -1,13 +1,15 @@
 import {ReactComponent as AllChains} from '../../../../assets/Icons/allchains.svg';
 import {ReactComponent as Polygon} from '../../../../assets/Icons/polygon.svg';
 import {ReactComponent as Wave} from '../../../../assets/images/wave.svg';
-import React, { useEffect } from 'react';
+import React, { useState, useEffect } from 'react';
 import Spacing from '../../../../components/Spacing';
 import Text from '../../../../components/Typography';
 import './index.scss';
 
 
 export const Accessibility = () => {
+
+	const [deviceWidth, setDeviceWidth] = useState<string>('');
 
 	useEffect(() => {
 		const checkWidth = () => {
