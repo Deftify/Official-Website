@@ -1,4 +1,4 @@
-import {ReactComponent as AllChains} from '../../../../assets/Icons/allchains.svg';
+import {ReactComponent as AllChains} from '../../../../assets/Icons/allchains1.svg';
 import {ReactComponent as AllChainsMobile} from '../../../../assets/Icons/allchains-mobile.svg';
 import {ReactComponent as Wave} from '../../../../assets/images/wave.svg';
 import React, { useState, useEffect } from 'react';
