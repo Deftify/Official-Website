@@ -18,8 +18,8 @@ export const Accessibility = () => {
 			</Text>
 
 			<p className="section-text__description description">
-				Deftify is utilizing Polygon and Cardano, making it the first Africa-focused launchpad and market data 
-				aggregator to tap into both Polygon and Cardano ecosystem
+				Deftify will start on Polygon and will be cross-chain compatible with all other EVM chains as well as Cardano, making it the first Africa-focused launchpad and market data 
+				aggregator to tap into multiple chains.
 			</p>
 
 			<Wave className="wave" />
