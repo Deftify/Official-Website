@@ -1,6 +1,4 @@
 import {ReactComponent as Polygon} from '../../../../assets/Icons/polygon.svg';
-import {ReactComponent as Cardano} from '../../../../assets/Icons/cardano.svg';
-import {ReactComponent as EVM} from '../../../../assets/Icons/evm.svg';
 import {ReactComponent as Wave} from '../../../../assets/images/wave.svg';
 import Spacing from '../../../../components/Spacing';
 import Text from '../../../../components/Typography';
@@ -16,13 +14,11 @@ export const Accessibility = () => {
 			<div className="column">
 			<a href="https://polygon.technology/" target="_blank" rel="noreferrer"><Polygon /></a>
   			</div>
-			  <div className="column">&nbsp;</div>
   			<div className="column">
-  			<EVM />
+  			<Polygon />
   			</div>
-			<div className="column">&nbsp;</div>
   			<div className="column">
-  			<Cardano />
+  			<Polygon />
   			</div>
   			</div>
 			</Text>
