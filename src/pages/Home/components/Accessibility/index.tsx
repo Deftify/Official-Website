@@ -16,11 +16,11 @@ export const Accessibility = () => {
 			<div className="column">
 			<a href="https://polygon.technology/" target="_blank" rel="noreferrer"><Polygon /></a>
   			</div>
-			  {/*<div className="column">&nbsp;</div>*/}
+			  <div className="column">&nbsp;</div>
   			<div className="column">
   			<EVM />
   			</div>
-			{/*<div className="column">&nbsp;</div>*/}
+			<div className="column">&nbsp;</div>
   			<div className="column">
   			<Cardano />
   			</div>
