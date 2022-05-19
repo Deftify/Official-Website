@@ -20,7 +20,7 @@ const Wrapper = styled.div`
 `;
 
 const Avatar = styled.img`
-  border-radius: 20px;
+  border-radius: 25px;
   width: 100%;
 `;
 
@@ -37,13 +37,13 @@ function Profile({ name, position, linkedIn, avatar, github, achievement }: Prop
             <Text fontSize={15} color=" rgba(255, 255, 255, 0.6);">{position}</Text>
           </div>
 
-          <Spacing marginLeft="15px">
+          <Spacing marginLeft="10px">
             <Flex>
               <a href={linkedIn} target="_blank" rel="noreferrer">
                 <LinkedInIcon />
               </a>
               {github && (
-                <Spacing marginRight="10px">
+                <Spacing marginRight="5px">
                   <a href={github} target="_blank" rel="noreferrer">
                     <GitHubIcon />
                   </a>

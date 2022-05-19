@@ -10,7 +10,7 @@ const ProfileGrid = styled.div`
   display: grid;
   grid-template-columns: repeat(4, 1fr);
   gap: 60px 0px;
-  margin-top: 48px;
+  margin-top: 40px;
 
   ${({theme}) => theme.breakpoint.down('lg')} {
     grid-template-columns: repeat(2, 1fr);
@@ -54,7 +54,7 @@ const Teams = (): ReactElement => {
             position="Chief Operating Officer"
             linkedIn="https://www.linkedin.com/in/ruddy-setiadi-gunawan/"
             avatar="./images/profile/2.png"
-            achievement="Ruddy worked with various crypto projects since 2018, including Publish0x, Remitano, and a CMO role for Lead Wallet. He’s also tech savvy and has good knowledge of backend development, can manage technical teams efficiently"
+            achievement="Ruddy worked with various crypto projects since 2018, including Publish0x, Remitano, and a CMO role for Lead Wallet. He’s also tech savvy and has good knowledge of Web3 apps and project development, he can manage technical teams efficiently."
           />
           <Profile
             name="Olapade Samuel"
@@ -65,11 +65,11 @@ const Teams = (): ReactElement => {
           />
           <Profile
             name="Philip Akhilome "
-            position="Chief Technology Officer"
+            position="CTO"
             github="https://github.com/akhils10"
             linkedIn="https://www.linkedin.com/in/philip-akhilome/"
             avatar="./images/profile/philip.png"
-            achievement="Philip is a highly innovative polyglot software engineer and blockchain developer with over 10 years overall programming experience. He is a co-founder at Guild Protocol, Buttons Labs and Techmybrand. Philip also has experiences leading distributed teams"
+            achievement="Philip is a highly innovative polyglot software engineer and blockchain developer with over 10 years programming experience. He is a co-founder at Guild Protocol, Buttons Labs and Techmybrand. Philip also has experiences leading distributed teams"
           />
           <Profile
             name="Neil Mani"
@@ -84,7 +84,7 @@ const Teams = (): ReactElement => {
             github="https://github.com/Hendobox"
             linkedIn="https://www.linkedin.com/in/henry-onyebuchi-116501123/"
             avatar="./images/profile/5.png"
-            achievement="Henry is a smart-contract developer with over two years of experience in building decentralized applications in the blockchain industry. Work experience include Rarecandy3D, Lead Wallet, and DeSpace protocol. Has a master’s degree in Mechanical Engineering"
+            achievement="Henry is a smart-contract developer with over two years of experience in building decentralized applications in the blockchain industry. Work experience include Rarecandy3D, Lead Wallet, and DeSpace protocol. Henry has a master’s degree in Mechanical Engineering"
           />
           <Profile
             name="Revival Nano Adolor "
@@ -95,19 +95,11 @@ const Teams = (): ReactElement => {
             achievement="Nano is a software engineer with more than 3 years’ experience in software engineering and 1+ years’ experience in blockchain development. He is also a strong engineering professional with a B.Eng focused in Electrical and Electronics Engineering from University of Benin"
           />
           <Profile
-            name="Kingsley Victor"
-            position="Technical Lead"
-            github="https://github.com/kingsley-einstein"
-            linkedIn="https://www.linkedin.com/in/kingsley-victor-952550169/"
-            avatar="./images/profile/6.png"
-            achievement="Kingsley is a full-stack software engineer proficient in programming languages such as Java, JavaScript, Typescript and Solidity. He's a back-end developer at Lead Wallet and DeSpace, and a full-stack and smart contract engineer at Dogecoin 2.0"
-          />
-          <Profile
                   name="Nnadi Wisdom"
                   position="MetaCurse Game Director"
                   linkedIn="https://www.linkedin.com/feed/"
                   avatar="./images/profile/wisdom.png"
-                  achievement="Nnadi Wisdom is a professional game developer with more than six years of experience. He’s proficient in making video games for multiple platforms, including mobile, PC, and virtual reality. With Deftify, he is responsible for MetaCurse game development and direction"
+                  achievement="Nnadi Wisdom is a professional game developer with more than six years of experience. Wisdom is proficient in making video games for multiple platforms, including for mobile games, PC, and even virtual reality ecosystem. With Deftify, he is responsible for MetaCurse development and direction of the game"
           />
            <Profile
                   name="Jay Wang"
@@ -145,6 +137,13 @@ const Teams = (): ReactElement => {
             linkedIn="https://www.linkedin.com/in/raedarrar/"
             avatar="./images/profile/raed.png"
             achievement="Worked with startups in the past 30+ years of International Business Development and Venture Capital experience.  His passion revolves around blockchain and metaverse where can regularly be found testing new strategies. His main focus is building partnerships with a singular vision."
+          />
+          <Profile
+            name="Marcin Kolago"
+            position="Visionary/Strategic Advisor"
+            linkedIn="https://www.linkedin.com/in/marcinkolago/"
+            avatar="./images/profile/marcin.png"
+            achievement="Former startup mentor and corporate innovator, leading teams, managing major projects. CEO and Founder of Coinerro . lorem ipsum insert text here. lorem ipsum insert text here. lorem ipsum insert text here. lorem ipsum insert text here. lorem ipsum insert text here. lorem ipsum insert.."
           />
 
         </ProfileGrid>
