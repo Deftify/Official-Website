@@ -65,11 +65,11 @@ const Teams = (): ReactElement => {
           />
           <Profile
             name="Philip Akhilome "
-            position="CTO"
+            position="Chief Technology Officer"
             github="https://github.com/akhils10"
             linkedIn="https://www.linkedin.com/in/philip-akhilome/"
             avatar="./images/profile/philip.png"
-            achievement="Philip is a highly innovative polyglot software engineer and blockchain developer with over 10 years programming experience. He is a co-founder at Guild Protocol, Buttons Labs and Techmybrand. Philip also has experiences leading distributed teams"
+            achievement="Philip is a highly innovative polyglot software engineer and blockchain developer with over 10 years programming experience. He is a co-founder at Guild Protocol, Buttons Labs and Techmybrand. Has experiences leading distributed teams"
           />
           <Profile
             name="Neil Mani"
@@ -79,7 +79,7 @@ const Teams = (): ReactElement => {
             achievement="Neil Mani is an experienced designer with more than seven years of experience in design leadership, video making, user journey, strategic design, and user experience design. Neil brings his extensive design experience to Deftify and will oversee the UI/UX design"
           />
           <Profile
-            name="Revival Nano Adolor "
+            name="Revival Nano"
             position="Frontend Dev"
             github="https://github.com/nano235"
             linkedIn="https://www.linkedin.com/in/revival-nano-adolor/"
@@ -132,10 +132,10 @@ const Teams = (): ReactElement => {
           />
           <Profile
             name="Marcin Kolago"
-            position="Visionary/Strategic Advisor"
+            position="Operations Advisor"
             linkedIn="https://www.linkedin.com/in/marcinkolago/"
             avatar="./images/profile/marcin.png"
-            achievement="Former startup mentor and corporate innovator, leading teams, managing major projects. CEO and Founder of Coinerro . lorem ipsum insert text here. lorem ipsum insert text here. lorem ipsum insert text here. lorem ipsum insert text here. lorem ipsum insert text here. lorem ipsum insert.."
+            achievement="Former startup mentor, corporate innovator, team leader, and managing major projects. He is the CEO and Founder of Coinerro . Has been working with various blockchain-related startups and also Member of the Supervisory Board at Fundacja Polska Debatuje"
           />
 
         </ProfileGrid>
