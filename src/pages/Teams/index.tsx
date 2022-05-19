@@ -79,14 +79,6 @@ const Teams = (): ReactElement => {
             achievement="Neil Mani is an experienced designer with more than seven years of experience in design leadership, video making, user journey, strategic design, and user experience design. Neil brings his extensive design experience to Deftify and will oversee the UI/UX design"
           />
           <Profile
-            name="Henry Onyebuchi"
-            position="Smart Contract"
-            github="https://github.com/Hendobox"
-            linkedIn="https://www.linkedin.com/in/henry-onyebuchi-116501123/"
-            avatar="./images/profile/5.png"
-            achievement="Henry is a smart-contract developer with over two years of experience in building decentralized applications in the blockchain industry. Work experience include Rarecandy3D, Lead Wallet, and DeSpace protocol. Henry has a master’s degree in Mechanical Engineering"
-          />
-          <Profile
             name="Revival Nano Adolor "
             position="Frontend Dev"
             github="https://github.com/nano235"
