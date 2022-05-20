@@ -13,11 +13,6 @@ const Wrapper = styled.div`
   margin: auto;
 `;
 
-const FeaturedImage = styled.img`
-  border-radius: 10px;
-  width: 100%;
-`;
-
 function IntroductionFeaturesText({ explanation }: Props): ReactElement {
   return (
     <Wrapper>  
