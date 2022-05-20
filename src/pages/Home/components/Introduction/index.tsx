@@ -95,7 +95,7 @@ export const Introduction = () => {
       <IntroductionGrid>   
           <IntroductionFeatures
             featuredImage="./images/features/features1.svg"
-            explanation="Deftify’s Private Access Pad will grant our users access to untapped markets, especially in Africa"
+            explanation="Deftify’s Private Access Pad will grant users access to untapped markets, especially in Africa"
           />
           <IntroductionFeatures
             featuredImage="./images/features/features2.svg"
