@@ -22,13 +22,13 @@ const slides: Slide[] = aggregatorImages.map(aggregator => ({image: aggregator.i
 export const Aggregator = () => {
 	return (
 		<Spacing className="aggregator-wrapper">
-			<p className="section-text__header2 header2">
+			<div className="section-text__header2 header2">
 				Instant Watch
-			</p>
-			<p className="section-text__description description">
+			</div>
+			<div className="section-text__description description">
 				Imagine a combination of DexTools + DefiLlama + OpenSea data aggregator all in one but with better UI and more feature-rich.
 				That's Deftify's Instant Watch. Stake Deftify token (DFTY) to unlock premium features in our Instant Watch. Testnet coming soon
-			</p>
+			</div>
 
 			<Spacing
 				className="aggregator-images">

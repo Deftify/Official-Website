@@ -27,7 +27,7 @@ export const Accessibility = () => {
 	
 	return (
 		<Spacing className="accessibility-wrapper">
-			<p className="section-text__title--small small">BUILT FOR ACCESSIBILITY</p>
+			<div className="section-text__title--small small">BUILT FOR ACCESSIBILITY</div>
 
 			<Text className="powered-by-text">
 			<div className="row">
@@ -44,10 +44,10 @@ export const Accessibility = () => {
   			</div>
 			</Text>
 
-			<p className="section-text__description description">
+			<div className="section-text__description description">
 				Deftify will launch on Polygon and will be cross-chain compatible with other EVM chains and Cardano, making it the first Africa-focused launchpad and market data 
 				aggregator to tap into multi-chain ecosystem
-			</p>
+			</div>
 
 			<Wave className="wave" />
 		</Spacing>

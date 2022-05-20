@@ -33,7 +33,7 @@ export const Partners = () => {
 				alignItems:     'center',
 				justifyContent: 'center'
 			}}>
-			<p className="section-text__title--small small">Our Partners & Investors</p>
+			<div className="section-text__title--small small">Our Partners & Investors</div>
 			&nbsp;
 
 			<div className="partner-cont">
@@ -49,31 +49,31 @@ export const Partners = () => {
 			</div>
 			<span>&nbsp;</span>
 			<span>&nbsp;</span>
-			<p className="section-text__title--small small">Deftify On The Media</p>
+			<div className="section-text__title--small small">Deftify On The Media</div>
 			&nbsp;
 			<div className="row">
 			<div className="column">
 			<a href="https://www.marketwatch.com/press-release/deftify-builds-the-first-africa-focused-crypto-incubator-and-launchpad-2022-01-04" target="_blank" rel="noreferrer">
 			<img src="images/marketwatch.png" alt="marketwatch"></img>
-			<p className="section-text____pressrelease pressrelease">Deftify Builds the First Africa-Focused Crypto Incubator and Launchpad</p>
+			<div className="section-text____pressrelease pressrelease">Deftify Builds the First Africa-Focused Crypto Incubator and Launchpad</div>
 			</a>
   			</div>
   			<div className="column">
   			<a href="https://markets.financialcontent.com/ibtimes/news/read/42098274" target="_blank" rel="noreferrer">
 			<img src="images/ibtimes.png" alt="marketwatch"></img>
-			<p className="section-text____pressrelease pressrelease">Deftify Crypto Incubator Gives Investors Private Round Access</p>
+			<div className="section-text____pressrelease pressrelease">Deftify Crypto Incubator Gives Investors Private Round Access</div>
 			</a>
   			</div>
   			<div className="column">
   			<a href="https://www.digitaljournal.com/pr/deftify-builds-the-first-africa-focused-crypto-incubator-and-launchpad" target="_blank" rel="noreferrer">
 			<img src="images/digitaljournal.png" alt="marketwatch"></img>
-			<p className="section-text____pressrelease pressrelease"> The Deftify team has integrated an incubator into the launchpad to...</p>
+			<div className="section-text____pressrelease pressrelease"> The Deftify team has integrated an incubator into the launchpad to...</div>
 			</a>
   			</div>
   			<div className="column">
  			<a href="https://markets.financialcontent.com/bostonherald/news/read/42098274" target="_blank" rel="noreferrer">
 			<img src="images/bostonherald.png" alt="marketwatch"></img>
-			<p className="section-text____pressrelease pressrelease">Deftify has built a one-of-a kind ecosystem in one place</p>
+			<div className="section-text____pressrelease pressrelease">Deftify has built a one-of-a kind ecosystem in one place</div>
 			</a>
   			</div>
   			</div>

@@ -44,8 +44,8 @@ const getWhatWeDoImage = (title: string): JSX.Element => {
 const WhatWeDo = (props: Props): JSX.Element => <Spacing display="flex">
 	{getWhatWeDoImage(props.title)}
 	<div className="content">
-		<p className="title">{props.title}</p>
-		<p className="body">{props.body}</p>
+		<div className="title">{props.title}</div>
+		<div className="body">{props.body}</div>
 	</div>
 </Spacing>;
 
@@ -57,21 +57,21 @@ const SectionOne = () => <Spacing className="section-one">
 			alignItems:     'center',
 			justifyContent: 'center'
 		}}>
-			<p className="section-text__headerdfty headerdfty">
+			<div className="section-text__headerdfty headerdfty">
 			Deftify token (DFTY) has multiple use cases across Deftify ecosystem
-		</p>
+		</div>
 		<div className="stakedfty_image stakedfty_image__stake">
 		<img className="stake-image" src="./images/stakedfty-transparent.svg" alt={''} /></div>
 		&nbsp;
-		<p className="section-text__header2 header2">
+		<div className="section-text__header2 header2">
 			Private Access Pad (PAP) - Testnet Is Live!
-		</p>
-		<p className="section-text__description description">
+		</div>
+		<div className="section-text__description description">
 			Deftify’s Private Access Pad (PAP) is a private round launchpad and incubator with Africa as the focus. Through PAP, Deftify is going to incubate promising blockchain projects that are not reachable by the usual launchpads.
-		</p>
+		</div>
 
-		<p className="section-text__description description">
-			Deftify PAP testnet is already live on Ropsten network!</p> 
+		<div className="section-text__description description">
+			Deftify PAP testnet is already live on Ropsten network!</div> 
 			<div className="button-center">
 			<a
               href="https://testpap.deftify.io"

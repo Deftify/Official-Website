@@ -38,9 +38,9 @@ export const PhotoSlider = ({slides}: Props) => {
 		<div className="slider-wrapper sec-one">
 			<img className="image" src={slides[currentIndex].image} alt={''} />
 
-			<p className="caption">
+			<div className="caption">
 				{slides[currentIndex].caption}
-			</p>
+			</div>
 
 			<Spacing className="dot-cont">
 				{slides.map((slide, index) => <div
