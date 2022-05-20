@@ -97,7 +97,7 @@ export const ContactForm = () => {
             type="email"
             onChange={onInputChange}
             value={formDetails.email}
-            label="Email ssAddress"
+            label="Email Address"
             name="email"
           />
          
