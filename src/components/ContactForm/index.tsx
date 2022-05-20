@@ -92,16 +92,17 @@ export const ContactForm = () => {
           <Text className="title">
             Contact The Team
           </Text>
-
-          <TextField className="contact-form-border-radius"
+         
+          <TextField
             type="email"
             onChange={onInputChange}
             value={formDetails.email}
-            label="Email Address"
+            label="Email ssAddress"
             name="email"
           />
+         
 
-          <TextField className="contact-form-border-radius"
+          <TextField 
             value={formDetails.message}
             onChange={onInputChange}
             label="Message"
