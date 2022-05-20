@@ -93,6 +93,14 @@ const Teams = (): ReactElement => {
                   avatar="./images/profile/wisdom.png"
                   achievement="Nnadi Wisdom is a professional game developer with more than six years of experience. Wisdom is proficient in making video games for multiple platforms, including for mobile games, PC, and even virtual reality ecosystem. With Deftify, he is responsible for MetaCurse development and direction of the game"
           />
+          <Profile
+            name="Henry Onyebuchi"
+            position="Smart Contract"
+            github="https://github.com/Hendobox"
+            linkedIn="https://www.linkedin.com/in/henry-onyebuchi-116501123/"
+            avatar="./images/profile/5.png"
+            achievement="Henry is a smart-contract developer with over two years of experience in building decentralized applications in the blockchain industry. Work experience include Rarecandy3D, Lead Wallet, and DeSpace protocol. Henry has a master’s degree in Mechanical Engineering"
+          />
            <Profile
                   name="Jay Wang"
                   position="Business Development Manager"
