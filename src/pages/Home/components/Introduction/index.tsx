@@ -5,6 +5,8 @@ import RegularButton from '../../../../components/Button/Regular';
 import styled from 'styled-components';
 import Flex from '../../../../components/Flex';
 import IntroductionFeatures from '../../../../components/IntroductionFeatures'; //edited part
+import IntroductionFeaturesImage from '../../../../components/IntroductionFeaturesImage'; //edited part
+import IntroductionFeaturesText from '../../../../components/IntroductionFeaturesText'; //edited part
 import Spacing from '../../../../components/Spacing';
 import './index.scss';
 import {Modal} from '../../../../components/Modal';
@@ -23,11 +25,28 @@ const IntroductionGrid = styled.div`
   }
 
   ${({theme}) => theme.breakpoint.down('sm')} {
+    grid-template-columns: repeat(1, 1fr);
+  }
+`; //edited part
+
+const IntroductionGridTwo = styled.div` 
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 60px 0px;
+  margin-top: 0px;
+
+  ${({theme}) => theme.breakpoint.down('lg')} {
     grid-template-columns: repeat(3, 1fr);
+    gap: 40px;
+  }
+
+  ${({theme}) => theme.breakpoint.down('sm')} {
+    grid-template-columns: repeat(1, 1fr);
   }
 `; //edited part
 
 export const Introduction = () => {
+  const [deviceWidth, setDeviceWidth] = useState<string>('');
   const iframeRef = useRef() as MutableRefObject<any>;
 
   const [showYoutubeModal, setShowYoutubeModal] = useState<boolean>(false);
@@ -37,6 +56,21 @@ export const Introduction = () => {
       iframeRef.current.setAttribute('src', YOUTUBE_SRC);
     }
   }, [showYoutubeModal])
+
+  //edited part from here
+  useEffect(() => {
+		const checkWidth = () => {
+			if (window.innerWidth <= 599) {
+				setDeviceWidth('mobile');
+			}
+			if (window.innerWidth > 600) {
+				setDeviceWidth('desktop');
+			}
+		};
+		window.addEventListener('resize', checkWidth, { passive: true });
+		checkWidth();
+		return () => window.removeEventListener('resize', checkWidth);
+	}, []);//edited part to here
 
   const toggleYoutubeModal = () => {
     setShowYoutubeModal(!showYoutubeModal);
@@ -91,22 +125,52 @@ export const Introduction = () => {
           </Flex>
         </Spacing>
         {/*end of buttons*/}
-        <Spacing>
+        {deviceWidth === 'mobile' ? (
+				  <Spacing>
+          <IntroductionGrid>   
+              <IntroductionFeatures
+                featuredImage="./images/features/features1.svg"
+                explanation="Deftify’s Private Access Pad will grant users access to untapped markets, especially in Africa"
+              />
+              <IntroductionFeatures
+                featuredImage="./images/features/features2.svg"
+                explanation="Introducing Metacurse, Deftify’s own metaverse P2E game that will utilize Deftify token (DFTY)"
+              />
+              <IntroductionFeatures
+                featuredImage="./images/features/features3.svg"
+                explanation="Our market data aggregator is like DexTools + DefiLlama + OpenSea data aggregator all at once"
+              />
+            </IntroductionGrid>
+            </Spacing>
+				  ) : deviceWidth === 'desktop' ? (
+            <Spacing>
       <IntroductionGrid>   
-          <IntroductionFeatures
+          <IntroductionFeaturesImage
             featuredImage="./images/features/features1.svg"
-            explanation="Deftify’s Private Access Pad will grant users access to untapped markets, especially in Africa"
           />
-          <IntroductionFeatures
+          <IntroductionFeaturesImage
             featuredImage="./images/features/features2.svg"
-            explanation="Introducing Metacurse, Deftify’s own metaverse P2E game that will utilize Deftify token (DFTY)"
           />
-          <IntroductionFeatures
+          <IntroductionFeaturesImage
             featuredImage="./images/features/features3.svg"
-            explanation="Our market data aggregator is like DexTools + DefiLlama + OpenSea data aggregator all at once"
           />
         </IntroductionGrid>
+        <IntroductionGridTwo>
+        <IntroductionFeaturesText
+            explanation="Deftify’s Private Access Pad will grant users access to untapped markets, especially in Africa"
+          />
+        <IntroductionFeaturesText
+            explanation="Introducing Metacurse, Deftify’s own metaverse P2E game that will utilize Deftify token (DFTY)"
+          />
+        <IntroductionFeaturesText
+            explanation="Our market data aggregator is like DexTools + DefiLlama + OpenSea data aggregator all at once"
+          />  
+        </IntroductionGridTwo>
         </Spacing>
+				  ) : (
+					''
+				  )}
+        
         </Spacing>
     </Fragment>
     );

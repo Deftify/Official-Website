@@ -1,10 +1,10 @@
-<svg width="400" height="282" viewBox="0 0 400 282" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-<rect x="1.5" y="1.61646" width="397" height="278.879" rx="8.5" fill="url(#pattern0)" stroke="url(#paint0_linear_723_9426)" stroke-width="3"/>
+<svg width="400" height="280" viewBox="0 0 400 280" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<rect x="1.5" y="1.5" width="397" height="277" rx="8.5" fill="url(#pattern0)" stroke="url(#paint0_linear_723_9426)" stroke-width="3"/>
 <defs>
 <pattern id="pattern0" patternContentUnits="objectBoundingBox" width="1" height="1">
 <use xlink:href="#image0_723_9426" transform="translate(-0.0205187 -0.0330339) scale(0.00176375 0.00251482)"/>
 </pattern>
-<linearGradient id="paint0_linear_723_9426" x1="400" y1="281.996" x2="400" y2="0.116455" gradientUnits="userSpaceOnUse">
+<linearGradient id="paint0_linear_723_9426" x1="400" y1="280" x2="400" y2="0" gradientUnits="userSpaceOnUse">
 <stop stop-color="#D1FDFF"/>
 <stop offset="1" stop-color="#FDDB92"/>
 </linearGradient>
