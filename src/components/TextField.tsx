@@ -24,17 +24,18 @@ const InputStyle = styled.input<{ notEmpty: boolean }>`
   border-color: ${({ notEmpty }) => !notEmpty && "transparent"};
   color: #fff5f5;
   border-image-slice: 1;
+  border-radius: 13px; 
   border-image-source: ${({ notEmpty }) => notEmpty && "linear-gradient(to bottom, #fcd98d9e, #37f4fe83)"};
-  margin-top: 16px;
+  margin-top: 12px;
   &:focus,
   &:active {
     border: 2px solid;
     border-image-slice: 1;
     border-width: 2px;
-    border-image-source: linear-gradient(to bottom, #fcd98d9e, #37f4fe83);
+    border-color: #fcd98d9e;
   }
 `;
-
+//border-image-source: linear-gradient(to bottom, #fcd98d9e, #37f4fe83);
 const Label = styled.label<{ notEmpty: boolean }>`
   font-family: "Euclid Circular A";
   font-style: normal;
@@ -48,6 +49,7 @@ const Label = styled.label<{ notEmpty: boolean }>`
 interface Props extends InputHTMLAttributes<HTMLInputElement> {
   label?: string;
   value?: string;
+  
 }
 
 function TextField({ label, value, ...rest }: Props): ReactElement {
