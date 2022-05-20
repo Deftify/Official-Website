@@ -2,12 +2,30 @@ import {Fragment, MutableRefObject, useEffect, useRef, useState } from 'react';
 import {PlayIcon} from '../../../../assets/Icons';
 import OutlinedButton from '../../../../components/Button/Outlined';
 import RegularButton from '../../../../components/Button/Regular';
+import styled from 'styled-components';
 import Flex from '../../../../components/Flex';
+import IntroductionFeatures from '../../../../components/IntroductionFeatures'; //edited part
 import Spacing from '../../../../components/Spacing';
 import './index.scss';
 import {Modal} from '../../../../components/Modal';
 
 const YOUTUBE_SRC = "https://www.youtube.com/embed/ojI-W87vclI?autoplay=1";
+
+const IntroductionGrid = styled.div` 
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 60px 0px;
+  margin-top: 40px;
+
+  ${({theme}) => theme.breakpoint.down('lg')} {
+    grid-template-columns: repeat(3, 1fr);
+    gap: 40px;
+  }
+
+  ${({theme}) => theme.breakpoint.down('sm')} {
+    grid-template-columns: repeat(3, 1fr);
+  }
+`; //edited part
 
 export const Introduction = () => {
   const iframeRef = useRef() as MutableRefObject<any>;
@@ -44,13 +62,13 @@ export const Introduction = () => {
           ></iframe>
         </div>
       </Modal>
-      <Spacing margin="auto" padding="0 20px 20px" className="intro-wrapper sec-one">
-
-        <p className="section-text__description description">
+      <Spacing margin="auto" padding="0 10px 10px">
+      <Spacing margin="auto" padding="1px 20px 20px" className="intro-wrapper sec-one">
+        <div className="section-text__description description">
         As the world’s first Africa-focused crypto incubator and launchpad, Deftify offers private round access to cutting-edge African innovations.
           On top of that, Deftify also offers market data aggregator tools and is incubating its own P2E game, all using the same Deftify token (DFTY) staking mechanism
-        </p>
-
+        </div>
+      </Spacing>
         {/*buttons*/}
         <Spacing>
           <Flex flexDirectionSm="column">
@@ -73,7 +91,23 @@ export const Introduction = () => {
           </Flex>
         </Spacing>
         {/*end of buttons*/}
-      </Spacing>
+        <Spacing>
+      <IntroductionGrid>   
+          <IntroductionFeatures
+            featuredImage="./images/features/features1.svg"
+            explanation="Deftify’s Private Access Pad will grant our users access to untapped markets, especially in Africa"
+          />
+          <IntroductionFeatures
+            featuredImage="./images/features/features2.svg"
+            explanation="Introducing Metacurse, Deftify’s own metaverse P2E game that will utilize Deftify token (DFTY)"
+          />
+          <IntroductionFeatures
+            featuredImage="./images/features/features3.svg"
+            explanation="Our market data aggregator is like DexTools + DefiLlama + OpenSea data aggregator all at once"
+          />
+        </IntroductionGrid>
+        </Spacing>
+        </Spacing>
     </Fragment>
     );
 };

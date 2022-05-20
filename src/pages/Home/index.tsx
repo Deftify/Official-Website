@@ -1,4 +1,4 @@
-import {PhotoSlider, Slide} from '../../components/PhotoSlider';
+//import {PhotoSlider, Slide} from '../../components/PhotoSlider'; edited part
 import {Accessibility} from './components/Accessibility';
 import {Aggregator} from './components/Aggregator';
 import {ContactForm} from '../../components/ContactForm';
@@ -8,9 +8,9 @@ import {PlayToEarn} from './components/PlayToEarn';
 import {PrivateAccessPad} from './components/PrivateAccessPad';
 import './index.scss';
 import {useEffect, useState} from 'react';
-import Typewriter from 'typewriter-effect';
+//import Typewriter from 'typewriter-effect'; edited part
 
-export const slides: Slide[] = [
+/* export const slides: Slide[] = [
   {
     caption: 'Our launchpad and incubator is called Private Access Pad, with access to untapped markets',
     image:   './images/slide-one.svg'
@@ -25,14 +25,14 @@ export const slides: Slide[] = [
     caption: 'Introducing Metacurse, Deftify’s own metaverse P2E game that will utilize Deftify token (DFTY)',
     image:   './images/slider-03.svg'
   }
-];
+]; 
 
 const SECTION_TITLES = [
   'an Africa-focused crypto launchpad and incubator, connecting African innovations to the world.',
   'a market data aggregator service [imagine DexTools + DefiLlama + OpenSea data aggregator all in one space].',
   'is an index funds with exposure on multiple chains unlike DeFi Pulse Index funds that is limited on Ethereum',
   'incubating a P2E game (Metacurse) that is fully powered by Deftify token (DFTY).',
-];
+]; edited part */
 
 export const Home = () => {
   const [count, setCount] = useState<number>(1);
@@ -44,9 +44,9 @@ export const Home = () => {
 const topNotification = () => {
   return (
   <div className="cookie-banner">
-    <p>
+    <span>
         <a href="https://www.producthunt.com/posts/deftify" target="_blank" rel="noreferrer">Please vote for Deftify at ProductHunt ❤️</a>
-    </p>
+    </span>
   </div>
   )
 }
@@ -54,9 +54,9 @@ const topNotification = () => {
   return (
     <div>      
       {topNotification ()}
-      <div className="section-text__title-wrapper">
-        <div className="section-text__title">
-          <Typewriter
+      {/* <div className="section-text__title-wrapper"> edited part */}
+        <div className="section-text__title">Deftify - crypto without compromise
+          {/* <Typewriter
             onInit={(typewriter) => {
               typewriter
                 .changeDelay(20)
@@ -82,13 +82,13 @@ const topNotification = () => {
               loop: true,
               wrapperClassName: 'smaller-title-text'
             }}
-          />
+          /> edited part */}
         </div>
-      </div>
+      {/*</div> edited part */}
 
       <div className="stroked-background">
         <Introduction />
-        <PhotoSlider slides={slides} />
+        {/*<PhotoSlider slides={slides} /> edited part*/}
       </div>
 
       <PrivateAccessPad />
