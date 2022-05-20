@@ -101,8 +101,7 @@ const topNotification = () => {
       <Partners />
       <Accessibility />
 
-      <div
-        className="stroked-background" style={{backgroundPosition: 'center 247px'}}>
+      <div>
         <ContactForm />
       </div>
     </div>

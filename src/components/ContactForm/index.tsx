@@ -93,7 +93,7 @@ export const ContactForm = () => {
             Contact The Team
           </Text>
 
-          <TextField
+          <TextField className="contact-form-border-radius"
             type="email"
             onChange={onInputChange}
             value={formDetails.email}
@@ -101,7 +101,7 @@ export const ContactForm = () => {
             name="email"
           />
 
-          <TextField
+          <TextField className="contact-form-border-radius"
             value={formDetails.message}
             onChange={onInputChange}
             label="Message"
