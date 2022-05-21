@@ -4,9 +4,9 @@ import OutlinedButton from '../../../../components/Button/Outlined';
 import RegularButton from '../../../../components/Button/Regular';
 import styled from 'styled-components';
 import Flex from '../../../../components/Flex';
-import IntroductionFeatures from '../../../../components/IntroductionFeatures'; //edited part
-import IntroductionFeaturesImage from '../../../../components/IntroductionFeaturesImage'; //edited part
-import IntroductionFeaturesText from '../../../../components/IntroductionFeaturesText'; //edited part
+import IntroductionFeatures from '../../../../components/IntroductionFeatures'; //edited part => for mobile
+import IntroductionFeaturesImage from '../../../../components/IntroductionFeaturesImage'; //edited part => for desktop/tablet
+import IntroductionFeaturesText from '../../../../components/IntroductionFeaturesText'; //edited part => for desktop/tablet
 import Spacing from '../../../../components/Spacing';
 import './index.scss';
 import {Modal} from '../../../../components/Modal';
