@@ -29,22 +29,6 @@ const IntroductionGrid = styled.div`
   }
 `; //edited part
 
-const IntroductionGridTwo = styled.div` 
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  gap: 60px 0px;
-  margin-top: 0px;
-
-  ${({theme}) => theme.breakpoint.down('lg')} {
-    grid-template-columns: repeat(3, 1fr);
-    gap: 40px;
-  }
-
-  ${({theme}) => theme.breakpoint.down('sm')} {
-    grid-template-columns: repeat(1, 1fr);
-  }
-`; //edited part
-
 export const Introduction = () => {
   const [deviceWidth, setDeviceWidth] = useState<string>('');
   const iframeRef = useRef() as MutableRefObject<any>;
@@ -143,8 +127,8 @@ export const Introduction = () => {
             </IntroductionGrid>
             </Spacing>
 				  ) : deviceWidth === 'desktop' ? (
-            <Spacing>
-      <IntroductionGrid>   
+          <Spacing>
+          <IntroductionGrid>   
           <IntroductionFeaturesImage
             featuredImage="./images/features/features1.svg"
           />
@@ -154,19 +138,19 @@ export const Introduction = () => {
           <IntroductionFeaturesImage
             featuredImage="./images/features/features3.svg"
           />
-        </IntroductionGrid>
-        <IntroductionGridTwo>
-        <IntroductionFeaturesText
+          </IntroductionGrid>
+          <IntroductionGrid>
+          <IntroductionFeaturesText
             explanation="Deftify’s Private Access Pad will grant users access to untapped markets, especially in Africa"
           />
-        <IntroductionFeaturesText
-            explanation="Introducing Metacurse, Deftify’s own metaverse P2E game that will utilize Deftify token (DFTY)"
-          />
-        <IntroductionFeaturesText
-            explanation="Our market data aggregator is like DexTools + DefiLlama + OpenSea data aggregator all at once"
-          />  
-        </IntroductionGridTwo>
-        </Spacing>
+          <IntroductionFeaturesText
+              explanation="Introducing Metacurse, Deftify’s own metaverse P2E game that will utilize Deftify token (DFTY)"
+            />
+          <IntroductionFeaturesText
+              explanation="Our market data aggregator is like DexTools + DefiLlama + OpenSea data aggregator all at once"
+            />  
+          </IntroductionGrid>
+          </Spacing>
 				  ) : (
 					''
 				  )}
