@@ -16,7 +16,7 @@ const Wrapper = styled.div`
 function IntroductionFeaturesText({ explanation }: Props): ReactElement {
   return (
     <Wrapper>  
-      <Spacing marginTop="0px">
+      <Spacing marginTop="-15px">
         <Flex justifyContent="space-between">
           <div>
             <Text fontSize={18} fontWeight={500} color="#FFFFFF">
