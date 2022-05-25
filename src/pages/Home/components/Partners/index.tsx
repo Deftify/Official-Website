@@ -1,6 +1,6 @@
 import Spacing from '../../../../components/Spacing';
 import styled from 'styled-components';
-import IntroductionFeatures from '../../../../components/IntroductionFeatures'; //edited part
+import IntroductionFeatures from '../../../../components/ColumnsFormatting/IntroductionFeatures'; //edited part
 import './index.scss';
 
 const IntroductionGrid = styled.div` 

@@ -2,9 +2,9 @@ import React, {ReactElement, useEffect, useState} from 'react';
 import {ContactForm} from '../../components/ContactForm';
 import styled from 'styled-components';
 import Flex from '../../components/Flex';
-import Profile from '../../components/Profile';
-import ProfileImage from '../../components/ProfileImage'; //edited part => for desktop/tablet
-import ProfileText from '../../components/ProfileText'; //edited part => for desktop/tablet
+import Profile from '../../components/ColumnsFormatting/Profile';
+import ProfileImage from '../../components/ColumnsFormatting/ProfileImage'; //edited part => for desktop/tablet
+import ProfileText from '../../components/ColumnsFormatting/ProfileText'; //edited part => for desktop/tablet
 import Spacing from '../../components/Spacing';
 import Text from '../../components/Typography';
 
